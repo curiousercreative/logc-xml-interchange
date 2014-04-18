@@ -7,8 +7,9 @@ import os.path as osp
 import httplib
 import hashlib
 import sys
+import urllib
 
-EXECUTABLE_DIRECTORY = osp.dirname(sys.argv[0])
+EXECUTABLE_DIRECTORY = osp.abspath(osp.dirname(sys.argv[0]))
 
 VIDEO_DOMAIN = urlparse("http://logc.curiousercreative.com")
 VIDEO_REPOSITORY = "/media/offline/"
@@ -50,7 +51,7 @@ def check_for_remote_file(http_connection, file_basename):
   return (response.status == 200 and (headers["content-type"] == "text/plain" or headers["content-type"] == "video/quicktime"))
 
 def build_local_url(file_url):
-  return urlparse(osp.join(EXECUTABLE_DIRECTORY,url_basename(file_url)), scheme="file")
+  return urlparse(osp.join(urllib.quote(EXECUTABLE_DIRECTORY),url_basename(file_url)), scheme="file")
 
 def url_basename(file_url):
   return osp.basename(file_url.path)
@@ -93,9 +94,8 @@ def main():
   # Finally write the xml document
   tree.write(project_xml)
 
-
-
-
+  # And close the connection to the remote server
+  video_domain_connection.close()
 
 if __name__ == "__main__":
   main()
