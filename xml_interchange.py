@@ -6,6 +6,9 @@ import os
 import os.path as osp
 import httplib
 import hashlib
+import sys
+
+EXECUTABLE_DIRECTORY = osp.dirname(sys.argv[0])
 
 VIDEO_DOMAIN = urlparse("http://logc.curiousercreative.com")
 VIDEO_REPOSITORY = "/media/offline/"
@@ -47,14 +50,14 @@ def check_for_remote_file(http_connection, file_basename):
   return (response.status == 200 and (headers["content-type"] == "text/plain" or headers["content-type"] == "video/quicktime"))
 
 def build_local_url(file_url):
-  return urlparse(osp.join(os.getcwd(), url_basename(file_url)), scheme="file")
+  return urlparse(osp.join(EXECUTABLE_DIRECTORY,url_basename(file_url)), scheme="file")
 
 def url_basename(file_url):
   return osp.basename(file_url.path)
 
 def main():
   # There should only be one xml file in this directory
-  project_xml = glob.glob("*.xml")[0]
+  project_xml = glob.glob(osp.join(EXECUTABLE_DIRECTORY, "*.xml"))[0]
 
   # Parse that xml tree
   tree = ET.parse(project_xml)
