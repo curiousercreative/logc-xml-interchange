@@ -5,7 +5,7 @@ import glob
 import os
 import os.path as osp
 import httplib
-import md5
+import hashlib
 
 VIDEO_DOMAIN = urlparse("http://logc.curiousercreative.com")
 VIDEO_REPOSITORY = "/media/offline/"
@@ -19,7 +19,7 @@ def checksum_checks_out(http_connection, file_basename, local_file_path):
   remote_checksum = response.read().split(' ')[0]
 
   with open(local_file_path, 'r') as f:
-    local_checksum = md5.hexdigest(f.read())
+    local_checksum = hashlib.md5(f.read()).hexdigest()
 
   return local_checksum == remote_checksum
 
