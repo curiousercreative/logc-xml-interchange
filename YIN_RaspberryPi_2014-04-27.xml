@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+<bin>
+	<uuid>2815975F-ED80-45DB-88DC-1DABE9FD6004</uuid>
+	<updatebehavior>add</updatebehavior>
+	<name>Raspberry Pi</name>
+	<children>
+		<clip id="Raw Interview Eben Upton">
+			<uuid>5900CE79-2FCF-4D3E-87FD-B3E28181BE02</uuid>
+			<updatebehavior>add</updatebehavior>
+			<name>Raw Interview Eben Upton</name>
+			<duration>14279</duration>
+			<rate>
+				<ntsc>TRUE</ntsc>
+				<timebase>24</timebase>
+			</rate>
+			<in>-1</in>
+			<out>-1</out>
+			<masterclipid>Raw Interview Eben Upton</masterclipid>
+			<ismasterclip>TRUE</ismasterclip>
+			<logginginfo>
+				<description/>
+				<scene/>
+				<shottake/>
+				<lognote/>
+				<good>FALSE</good>
+			</logginginfo>
+			<labels>
+				<label2/>
+			</labels>
+			<comments>
+				<mastercomment1/>
+				<mastercomment2/>
+				<mastercomment3/>
+				<mastercomment4/>
+			</comments>
+			<media>
+				<video>
+					<track>
+						<clipitem id="Raw Interview Eben Upton1">
+							<name>Raw Interview Eben Upton</name>
+							<duration>14279</duration>
+							<rate>
+								<ntsc>TRUE</ntsc>
+								<timebase>24</timebase>
+							</rate>
+							<in>0</in>
+							<out>14279</out>
+							<start>0</start>
+							<end>14279</end>
+							<pixelaspectratio>Square</pixelaspectratio>
+							<anamorphic>FALSE</anamorphic>
+							<alphatype>black</alphatype>
+							<masterclipid>Raw Interview Eben Upton</masterclipid>
+							<logginginfo>
+								<scene/>
+								<shottake/>
+								<lognote/>
+								<good>FALSE</good>
+							</logginginfo>
+							<labels>
+								<label2/>
+							</labels>
+							<comments>
+								<mastercomment1/>
+								<mastercomment2/>
+								<mastercomment3/>
+								<mastercomment4/>
+							</comments>
+							<file id="YIN_2013-09-22_LG-5 ">
+								<name>YIN_2013-09-22_LG-5.mov</name>
+								<pathurl>file://localhost/Volumes/Curiouser%2010cc/Curiouser/Video/Active/Your%20Input%20Needed/Produced%20assets/Offline/Curiouser/9.20.13%20NYC%20Maker%20Faire/YIN_2013-09-22_LG-5.mov</pathurl>
+								<rate>
+									<timebase>24</timebase>
+									<ntsc>TRUE</ntsc>
+								</rate>
+								<duration>14279</duration>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.quicktime.author</key>
+									<size>18</size>
+									<type>UTF8</type>
+									<value>Curiouser Creative</value>
+								</metadata>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.quicktime.description</key>
+									<size>60</size>
+									<type>UTF8</type>
+									<value>This video is about 9.20.13 Maker Faire Interview Eben Upton</value>
+								</metadata>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.quicktime.displayname</key>
+									<size>40</size>
+									<type>UTF8</type>
+									<value>9.20.13 Maker Faire Interview Eben Upton</value>
+								</metadata>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.quicktime.keywords</key>
+									<size>29</size>
+									<type>UTF8</type>
+									<value>YIN - 9.20.13 NYC Maker Faire</value>
+								</metadata>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.quicktime.title</key>
+									<size>40</size>
+									<type>UTF8</type>
+									<value>9.20.13 Maker Faire Interview Eben Upton</value>
+								</metadata>
+								<metadata>
+									<storage>QuickTime</storage>
+									<key>com.apple.finalcutstudio.media.uuid</key>
+									<size>36</size>
+									<type>UTF8</type>
+									<value>A2D1464C-B1C7-47E3-B67C-4EBB83A86E3B</value>
+								</metadata>
+								<timecode>
+									<rate>
+										<timebase>24</timebase>
+									</rate>
+									<string>00:00:00:00</string>
+									<frame>0</frame>
+									<displayformat>NDF</displayformat>
+									<source>source</source>
+								</timecode>
+								<media>
+									<video>
+										<duration>14279</duration>
+										<samplecharacteristics>
+											<width>640</width>
+											<height>360</height>
+										</samplecharacteristics>
+									</video>
+									<audio>
+										<samplecharacteristics>
+											<samplerate>48000</samplerate>
+											<depth>32</depth>
+										</samplecharacteristics>
+										<channelcount>2</channelcount>
+									</audio>
+								</media>
+							</file>
+							<sourcetrack>
+								<mediatype>video</mediatype>
+							</sourcetrack>
+							<link>
+								<linkclipref>Raw Interview Eben Upton1</linkclipref>
+								<mediatype>video</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton2</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton3</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>2</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<fielddominance>none</fielddominance>
+							<itemhistory>
+								<uuid>5530221D-C37E-4EE2-9C25-604BEAE471DD</uuid>
+							</itemhistory>
+						</clipitem>
+						<enabled>TRUE</enabled>
+						<locked>FALSE</locked>
+					</track>
+				</video>
+				<audio>
+					<in>-1</in>
+					<out>-1</out>
+					<track>
+						<clipitem id="Raw Interview Eben Upton2">
+							<name>Raw Interview Eben Upton</name>
+							<duration>14279</duration>
+							<rate>
+								<ntsc>TRUE</ntsc>
+								<timebase>24</timebase>
+							</rate>
+							<in>0</in>
+							<out>14279</out>
+							<start>0</start>
+							<end>14279</end>
+							<subframeoffset>0</subframeoffset>
+							<masterclipid>Raw Interview Eben Upton</masterclipid>
+							<logginginfo>
+								<scene/>
+								<shottake/>
+								<lognote/>
+								<good>FALSE</good>
+							</logginginfo>
+							<labels>
+								<label2/>
+							</labels>
+							<comments>
+								<mastercomment1/>
+								<mastercomment2/>
+								<mastercomment3/>
+								<mastercomment4/>
+							</comments>
+							<file id="YIN_2013-09-22_LG-5 "/>
+							<filter>
+								<effect>
+									<name>Audio Levels</name>
+									<effectid>audiolevels</effectid>
+									<effectcategory>audiolevels</effectcategory>
+									<effecttype>audiolevels</effecttype>
+									<mediatype>audio</mediatype>
+									<parameter>
+										<name>Level</name>
+										<parameterid>level</parameterid>
+										<valuemin>0</valuemin>
+										<valuemax>3.98109</valuemax>
+										<value>1</value>
+									</parameter>
+								</effect>
+							</filter>
+							<filter>
+								<effect>
+									<name>Audio Pan</name>
+									<effectid>audiopan</effectid>
+									<effectcategory>audiopan</effectcategory>
+									<effecttype>audiopan</effecttype>
+									<mediatype>audio</mediatype>
+									<parameter>
+										<name>Pan</name>
+										<parameterid>pan</parameterid>
+										<valuemin>-1</valuemin>
+										<valuemax>1</valuemax>
+										<value>-1</value>
+									</parameter>
+								</effect>
+							</filter>
+							<sourcetrack>
+								<mediatype>audio</mediatype>
+								<trackindex>1</trackindex>
+							</sourcetrack>
+							<link>
+								<linkclipref>Raw Interview Eben Upton1</linkclipref>
+								<mediatype>video</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton2</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton3</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>2</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<itemhistory>
+								<uuid>8FA2268F-2FD5-4663-9DAD-0A6B5E7D01FF</uuid>
+							</itemhistory>
+						</clipitem>
+						<enabled>TRUE</enabled>
+						<locked>FALSE</locked>
+					</track>
+					<track>
+						<clipitem id="Raw Interview Eben Upton3">
+							<name>Raw Interview Eben Upton</name>
+							<duration>14279</duration>
+							<rate>
+								<ntsc>TRUE</ntsc>
+								<timebase>24</timebase>
+							</rate>
+							<in>0</in>
+							<out>14279</out>
+							<start>0</start>
+							<end>14279</end>
+							<subframeoffset>0</subframeoffset>
+							<masterclipid>Raw Interview Eben Upton</masterclipid>
+							<logginginfo>
+								<scene/>
+								<shottake/>
+								<lognote/>
+								<good>FALSE</good>
+							</logginginfo>
+							<labels>
+								<label2/>
+							</labels>
+							<comments>
+								<mastercomment1/>
+								<mastercomment2/>
+								<mastercomment3/>
+								<mastercomment4/>
+							</comments>
+							<file id="YIN_2013-09-22_LG-5 "/>
+							<filter>
+								<effect>
+									<name>Audio Levels</name>
+									<effectid>audiolevels</effectid>
+									<effectcategory>audiolevels</effectcategory>
+									<effecttype>audiolevels</effecttype>
+									<mediatype>audio</mediatype>
+									<parameter>
+										<name>Level</name>
+										<parameterid>level</parameterid>
+										<valuemin>0</valuemin>
+										<valuemax>3.98109</valuemax>
+										<value>1</value>
+									</parameter>
+								</effect>
+							</filter>
+							<filter>
+								<effect>
+									<name>Audio Pan</name>
+									<effectid>audiopan</effectid>
+									<effectcategory>audiopan</effectcategory>
+									<effecttype>audiopan</effecttype>
+									<mediatype>audio</mediatype>
+									<parameter>
+										<name>Pan</name>
+										<parameterid>pan</parameterid>
+										<valuemin>-1</valuemin>
+										<valuemax>1</valuemax>
+										<value>1</value>
+									</parameter>
+								</effect>
+							</filter>
+							<sourcetrack>
+								<mediatype>audio</mediatype>
+								<trackindex>2</trackindex>
+							</sourcetrack>
+							<link>
+								<linkclipref>Raw Interview Eben Upton1</linkclipref>
+								<mediatype>video</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton2</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>1</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<link>
+								<linkclipref>Raw Interview Eben Upton3</linkclipref>
+								<mediatype>audio</mediatype>
+								<trackindex>2</trackindex>
+								<clipindex>1</clipindex>
+								<groupindex>1</groupindex>
+							</link>
+							<itemhistory>
+								<uuid>04D9D662-498F-4DCA-9139-8C6BC6CF3DBD</uuid>
+							</itemhistory>
+						</clipitem>
+						<enabled>TRUE</enabled>
+						<locked>FALSE</locked>
+					</track>
+				</audio>
+			</media>
+		</clip>
+	</children>
+</bin>
+</xmeml>
+
+
