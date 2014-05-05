@@ -22,7 +22,7 @@ def checksum_checks_out(http_connection, file_basename, local_file_path):
   response = http_connection.getresponse()
   remote_checksum = response.read().split(' ')[0]
 
-  with open(local_file_path, 'r') as f:
+  with open(urllib.unquote(local_file_path), 'r') as f:
     local_checksum = hashlib.md5(f.read()).hexdigest()
 
   return local_checksum == remote_checksum
@@ -34,7 +34,7 @@ def download_remote_file(http_connection, file_basename, local_file_path):
 
   # Write to a file CHUNK_SIZE bytes at a time
   # TODO: some visuals here?
-  with open(local_file_path, 'wb') as f:
+  with open(urllib.unquote(local_file_path), 'wb') as f:
     data_chunk = response.read(CHUNK_SIZE)
     while data_chunk:
       f.write(data_chunk)
